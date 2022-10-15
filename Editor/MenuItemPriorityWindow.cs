@@ -14,7 +14,7 @@ namespace Kogane.Internal
         private static void Open()
         {
             var window = GetWindow<MenuItemPriorityWindow>( "Menu Item Priority" );
-            window.maxSize = new Vector2( window.maxSize.x, 96 );
+            window.maxSize = new( window.maxSize.x, 96 );
         }
 
         private void Update()
